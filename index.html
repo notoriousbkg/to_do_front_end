@@ -2,48 +2,40 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css" type="text/css" />
-         <title> To-Do </title>
+        <title> To-Do </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"> </script>
     </head>
     <body>
-        <h1 class="top">To-Do Schedule</h1>
-        <span class="header1"> Task </span>
-        <span class="header2"> Time </span>
-        <span class="header3"> Days Till Due </span>
-            <div>
-                <ol class="box-1">
-                    <li>
-                        run 
-                    </li>
-                    <li>
-                        <a href="show.html">Go read Les Mis</a>
-                    </li>
-                    <li>
-                        i should go on a run while im here
-                    </li>
-                </ol>
-            </div>
-            <div>
-                <ol class="box-2">
-                    <li>
-                        <span>20 min</span>
-                    </li>
-                    <li>
-                        <span>50 min</span>
-                    </li>
-                    <li>
-                        90 min
-                    </li>
-                </ol>
-            </div>
-            <div>
-                <ol class="box-3">
-                    <li>3</li>
-                    <li>1</li>
-                    <li>2</li>
-                </ol>
-            </div>
+
+         <ul>
+             <li>
+                 <input type="checkbox">
+                 <a href="show.html">walk the dog</a>
+                 <span class="minutes">30 min</span>
+                 <span class="days-till-due">3 days</span>
+             </li>
+             <li>
+                 <input type="checkbox">
+                 <a href="show.html">read</a>
+                 <span class="minutes">50 min</span>
+                 <span class="days-till-due">2 days</span>
+             </li>
+             <li>
+                 <input type="checkbox">
+                 <a href="show.html">hangout</a>
+                 <span class="minutes">60 min</span>
+                 <span class="days-till-due">6 days</span>
+             </li>
+         </ul>
+         
+         
+         
          <p>
+            <form action="AddTask.html">
             <input id="add-a-to-do" type="submit" value="Add To-Do">
+            </form>
         </p>
+
     </body>
 </html>

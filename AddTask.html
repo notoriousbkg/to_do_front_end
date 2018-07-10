@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="AddTask.css" type="text/css" />
         <title> Add Task </title>
+        <script type="text/javascript" src="index.js"> </script>
     </head>
     <body>
         <h1>Add Task</h1>
         <h3>What do you have to do?</h3> 
-            <input type="text" placeholder="New To-Do">
+            <input type="text" placeholder="New To-Do" id="new-to-do">
         <h3>How long will it take?</h3>
-            <input type="number" step="5" placeholder="Time (minutes)">
+            <input type="number" step="5" placeholder="Time (minutes)" id="#new-time">
         <h3>How many days is it due in?</h3>
-            <input type="number" placeholder="Days Till Due">
+            <input type="number" placeholder="Days Till Due" id="new-days">
         <h3>Description (optional)</h3>
-            <input type="text" placeholder="Description (optional)">
+            <input type="text" placeholder="Description (optional)" id="new-description">
         <p>
-            <input id="final-add" type="submit" value="Add To-Do">
+            <span><input id="final-add" type="submit" value="Add To-Do"></span>
+            <form action="index.html">
+            <span><input id="back" type="submit" value="Back"></span>
+            </form>
         </p>
+
     </body>
     
     

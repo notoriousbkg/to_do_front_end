@@ -1,6 +1,8 @@
 html{
     font-family: Verdana;
-    background-color: #F4F
+    background-color: #F4F;
+    margin:auto;
+    
 }
 h1 {
     background-color: #AFEEEE;
@@ -28,6 +30,23 @@ h3 {
     color: #00FF00;
 }
 #final-add:hover{
+    background-color: #008000
+    
+}
+#back{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    outline:none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px #90A4AE;
+}
+#back:active{
+    box-shadow: 1px 1px 1px #90A4AE;
+    color: #00FF00;
+}
+#back:hover{
     background-color: #008000
     
 }
