@@ -1,0 +1,88 @@
+html{
+    font-family: Verdana;
+    background-color: #AFEEEE
+}
+.top{
+    font-weight: 900;
+}
+div { 
+    display:inline-block;
+    vertical-align: top;
+}  
+.header1{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0000; 
+    width:200px;
+    text-align: center;
+    display:inline-block;
+    
+}
+.box-1{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F4F; 
+    width:150px;
+    
+    
+}
+
+.box-2{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F4F; 
+    width: 100px;
+}
+.box-3{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F4F; 
+    width:50px;
+}
+
+.header2{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0000; 
+    width:100px;
+    text-align: center;
+    display:inline-block;
+}
+.header3{
+    border-radius: 10px;
+    color: #80000;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0000; 
+    width:140px;
+    text-align: center;
+    display:inline-block;
+    
+}
+#add-a-to-do{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    outline:none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px #90A4AE;
+}
+#add-a-to-do:active{
+    box-shadow: 1px 1px 1px #90A4AE;
+    color: #00FF00;
+}
+#add-a-to-do:hover{
+    background-color: #008000
+    
+}

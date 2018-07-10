@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="index.css" type="text/css" />
          <title> To-Do </title>
     </head>
     <body>
-        <h1>To-Do Schedule</h1>
-        <span> Task </span>
-        <span> Time </span>
-        <span> Days Till Due </span>
-            <ol>
-                <li> run </li>
-                <li> Go read Les Miserables </li>
-            </ol>
-            <ol>
-                <li>20 min</li>
-                <li>50 min</li>
-            </ol>
-            <ol>
-                <li>3</li>
-                <li>1</li>
-            </ol>
+        <h1 class="top">To-Do Schedule</h1>
+        <span class="header1"> Task </span>
+        <span class="header2"> Time </span>
+        <span class="header3"> Days Till Due </span>
+            <div>
+                <ol class="box-1">
+                    <li>
+                        run 
+                    </li>
+                    <li>
+                        <a href="show.html">Go read Les Mis</a>
+                    </li>
+                    <li>
+                        i should go on a run while im here
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <ol class="box-2">
+                    <li>
+                        <span>20 min</span>
+                    </li>
+                    <li>
+                        <span>50 min</span>
+                    </li>
+                    <li>
+                        90 min
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <ol class="box-3">
+                    <li>3</li>
+                    <li>1</li>
+                    <li>2</li>
+                </ol>
+            </div>
          <p>
-            <form action="https://to-do-front-end-notoriousbkg.c9users.io/show.html">
-            <button> Add Task </button>
-            </form>
+            <input id="add-a-to-do" type="submit" value="Add To-Do">
         </p>
     </body>
 </html>
